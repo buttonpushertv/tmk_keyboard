@@ -1,5 +1,5 @@
-# This version has one small tweak to make the Gherkin usable on a Mac. It adds
-# the COMMAND key as a ACTION_MODS_TAP_KEY to the ESC key.
+## This version has one small tweak to make the Gherkin usable on a Mac. It adds
+## the COMMAND key as a ACTION_MODS_TAP_KEY to the ESC key.
 - added by Ben Howard - [Buttonpusher Editing Machines](http://www.buttonpusher.tv)
 
 
