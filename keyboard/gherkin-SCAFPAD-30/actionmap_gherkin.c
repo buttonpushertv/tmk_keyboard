@@ -33,28 +33,7 @@
 
 const action_t PROGMEM actionmaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = ACTIONMAP( \
-      SCAF01, SCAF02, SCAF03, SCAF04, SCAF05, SCAF06, SCAF07, SCAF08, SCAF09, SCAF10, \
-      SCAF11, SCAF12, SCAF13, SCAF14, SCAF15, SCAF16, SCAF17, SCAF18, SCAF19, SCAF20, \
-      J,      K,      L,      V,      A,      Z,      SCAF21, SCAF22, SCAF23, SCAF24),
-    [1] = ACTIONMAP( \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
-    [2] = ACTIONMAP( \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
-    [3] = ACTIONMAP( \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
-    [4] = ACTIONMAP( \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
-    [5] = ACTIONMAP( \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS, \
-      TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
-  };
+      SCAF01,SCAF02,SCAF03,SCAF04,SCAF05,SCAF06,SCAF07,SCAF08,SCAF09,SCAF10, \
+      SCAF11,SCAF12,SCAF13,SCAF14,SCAF15,SCAF16,SCAF17,SCAF18,SCAF19,SCAF20, \
+      J,K,L,V,A,Z,SCAF21,SCAF22,SCAF23,SCAF24),
 };
