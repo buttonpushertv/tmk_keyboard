@@ -51,6 +51,7 @@
 #define AC_SCAF10    ACTION_MODS_KEY(MOD_LSFT | MOD_LALT | MOD_LCTL, KC_F10)
 #define AC_SCAF11    ACTION_MODS_KEY(MOD_LSFT | MOD_LALT | MOD_LCTL, KC_F11)
 #define AC_SCAF12    ACTION_MODS_KEY(MOD_LSFT | MOD_LALT | MOD_LCTL, KC_F12)
+#define AC_KM01    ACTION_MODS_KEY(MOD_LALT, KC_TAB)
 
 const action_t PROGMEM actionmaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = ACTIONMAP( \
@@ -64,17 +65,17 @@ const action_t PROGMEM actionmaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [2] = ACTIONMAP( \
     S01,    S02,    S03,    S04,    S05,    S06,    S07,    S08,    S09,    S10, \
     F11,    F12,    TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   GRV, \
-    TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
+    UNDO,   CUT,    COPY,   PASTE,  TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
     [3] = ACTIONMAP( \
     SCAF01, SCAF02, SCAF03, SCAF04, SCAF05, MINS,   EQL,    LBRC,   RBRC,   BSLS, \
     SCAF06, SCAF07, SCAF08, SCAF09, SCAF10, COMM,   DOT,    SLSH,   SCLN,   QUOT, \
     SCAF11, SCAF12, TRNS,   TRNS,   TRNS,   TRNS,   LEFT,   DOWN,   UP,     RGHT),
     [4] = ACTIONMAP( \
-    TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   S11,    S12,    S13,    S14,    S15, \
+    CAPS,   TRNS,   TRNS,   TRNS,   TRNS,   S11,    S12,    S13,    S14,    S15, \
     TAB,    TRNS,   TRNS,   TRNS,   TRNS,   S16,    S17,    S18,    S19,    S20, \
-    TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   HOME,   PGDN,   PGUP,   END),
+    KM01,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   HOME,   PGDN,   PGUP,   END),
     [5] = ACTIONMAP( \
     CALC,   WHOM,   MAIL,   MYCM,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   PSCR, \
-    TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   BLD,    BLI, \
+    TRNS,   TRNS,   TRNS,   TRNS,   TRNS,   MUTE,   VOLDOWN,VOLUP,   BLD,    BLI, \
     TRNS,   TRNS,   TRNS,   TRNS,   BTLD,   TRNS,   TRNS,   TRNS,   TRNS,   TRNS),
 };
